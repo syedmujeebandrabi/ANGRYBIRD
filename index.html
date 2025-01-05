@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Angry Love</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heart">❤️</div>
+        <h1>Hey Love, Don’t Be Angry!</h1>
+        <p class="message">You’re the sunshine of my life, and I hate to see you upset. Smile for me, please?</p>
+        <button onclick="revealSurprise()">Click for a Surprise!</button>
+        <div id="surpriseMessage">
+            <p id="quote">You are the most amazing person ever! 💕</p>
+            <img src="images/IMG_3547.jpg" alt="A cute surprise" />
+        </div>
+        
+        <div id="countdownTimer"></div>
+        <div id="togetherness"></div>
+
+        <!-- Slideshow section -->
+        <div class="slideshow-container">
+            <div class="slides" id="slides">
+                <img src="images/IMG_3548.jpg" alt="Image 1" class="active">
+                <img src="images/IMG_3255.PNG" alt="Image 2">
+                <img src="images/IMG_1665.PNG" alt="Image 3">
+                <img src="images/6cdb63ea-4ffc-4954-a07a-22e60374e7e2.JPG" alt="Image 4">
+            </div>
+            <button class="prev" onclick="changeSlide(-1)">❮</button>
+            <button class="next" onclick="changeSlide(1)">❯</button>
+        </div>
+    </div>
+
+    <div class="stars" id="stars"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
